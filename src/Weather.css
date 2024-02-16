@@ -1,11 +1,32 @@
 ul, li{
     list-style: none;
+    font-size: 30px;
 }
 .weather{
-    margin: 50px auto;
-    border: 2px solid red;
+    margin: 0px auto;
+    border: none;
+    border-radius: 20px;
     padding: 30px;
+    background-color: rgb(156, 192, 223);
+   max-width: 600px;
+    box-shadow: 0 10px 30px black;
 }
 .form-control{
     margin: 0 auto;
+}
+.degrees{
+    font-size: 80px;
+}
+.city{
+    color: rgb(23, 50, 73);
+    font-size: 70px;
+}
+strong{
+    color: rgb(122, 124, 10);
+}
+button{
+    padding: 7px;
+    background-color: rgb(23, 50, 73);
+    color: white;
+    border: 1px solid rgb(23, 50, 73);
 }
