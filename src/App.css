@@ -1,12 +1,6 @@
-.App {
-  text-align: center;
+.app, footer{
+  display: flex;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: white;
-  align-items: center;
-  color: black;
-}
-
 
 

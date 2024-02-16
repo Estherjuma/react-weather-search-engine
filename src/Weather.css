@@ -1,0 +1,11 @@
+ul, li{
+    list-style: none;
+}
+.weather{
+    margin: 50px auto;
+    border: 2px solid red;
+    padding: 30px;
+}
+.form-control{
+    margin: 0 auto;
+}
