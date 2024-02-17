@@ -22,7 +22,10 @@ ul, li{
     font-size: 70px;
 }
 strong{
-    color: rgb(122, 124, 10);
+    color: rgb(122, 124, 10); 
+}
+h2 strong{
+    font-size: 80px;
 }
 button{
     padding: 7px;
