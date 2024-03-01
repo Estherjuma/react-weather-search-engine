@@ -12,7 +12,7 @@ function App() {
             Esther Juma
           </a>{" "}
           , and is {" "}
-          <a href="https://github.com/Estherjuma/weather-app" target="blank">
+          <a href="https://github.com/Estherjuma/react-weather-search-engine" target="blank">
             {" "}
             open-sourced on Github
           </a>
