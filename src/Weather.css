@@ -19,15 +19,15 @@ ul, li{
 }
 .city{
     color: rgb(23, 50, 73);
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 strong{
     color: rgb(122, 124, 10); 
 }
 h2 strong{
-    font-size: 80px;
+    font-size: 100px;
     display: flex;
     justify-content: center;
 }
@@ -40,14 +40,14 @@ button{
 img{
   display: block;
   margin: 0 auto;
-  width: 300px;
-  margin-top: 0%;
+  width: 200px;
+  margin-top: 0px;
   height: 300px;
   
 }
 h2 a{
-   font-size: 60px;
-   margin-top: 10px;
+   font-size: 20px;
+   margin-top: 30px;
    text-decoration: none;
    color: rgb(23, 50, 73);
 }

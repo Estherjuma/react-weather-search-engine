@@ -6,10 +6,11 @@ export default function WeatherInfo(props) {
     return (
       <div className="WeatherInfo">
         <div className="row">
-          <div className="col-6">
+          <div className="col-4">
             <h1 className="city">{props.data.city}</h1>
+            <WeatherTemperature celsius={props.data.temperature} />
           </div>
-          <div className="col-6">
+          <div className="col-4">
             <ul>
               <li>
                 <FormattedDate date={props.data.date} />
@@ -23,16 +24,11 @@ export default function WeatherInfo(props) {
               </li>
             </ul>
           </div>
-        </div>
-        <hr />
-        <div className="row mb-1">
-          <div className="col-6">
+          <div className="col-4">
             <img src={props.data.icon} alt={props.data.description} />
           </div>
-          <div className="col-6">
-            <WeatherTemperature celsius={props.data.temperature} />
-          </div>
         </div>
+        <hr />
       </div>
     );
 }
